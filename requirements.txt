@@ -1,5 +1,7 @@
-streamlit
-openai
-langchain
-python-dotenv
-supabase
+streamlit==1.39.0
+langchain==0.2.12
+langchain-openai==0.1.7
+langchain-core==0.2.27
+openai==1.51.2
+python-dotenv==1.0.1
+supabase==2.9.0
