@@ -1,0 +1,39 @@
+# Python / Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-delete-this-directory.txt
+
+# Environment variables (NEVER commit API keys!)
+.env
+.env.local
+.env.production
+
+# Streamlit
+.streamlit/
+secrets.toml
+
+# Local files
+history.json
+*.log
+
+# MacOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Other
+node_modules/
