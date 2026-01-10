@@ -20,8 +20,8 @@ if not os.getenv("OPENAI_API_KEY"):
     st.stop()
 
 # Page config
-st.set_page_config(page_title="Orphanage Chatbot", page_icon="🌟")
-st.title("🌟 Orphanage Fun Chatbot 🌟")
+st.set_page_config(page_title="Rahbar", page_icon="🌟")
+st.title("Rahbar")
 st.write("Hi kids! I'm your friendly helper. Choose a mode and let's learn together!")
 
 # Initialize session state
@@ -110,4 +110,4 @@ with st.sidebar:
         st.rerun()
 
     st.write(f"Total messages: {len(st.session_state.messages)}")
-    st.caption("Made with ❤️ for kids")
+    st.caption("Rahbar for kids")
